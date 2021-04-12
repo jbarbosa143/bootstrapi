@@ -12,7 +12,7 @@ h1 {
 
 .api-section {
     width: 90%;
-    max-width: 900px;
+    width: 600px;
     padding: 24px;
     border: 1px solid #999;
     border-radius: 4px;
@@ -23,4 +23,51 @@ h1 {
     font-weight: bold;
     font-style: italic;
     color: #999;
+}
+
+th{
+    border-top: solid lightgray  4px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid lightgray 4px;
+    color: Blac;
+}
+
+td{
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid lightgray 4px;
+}
+
+.bottom tr{
+    border-bottom: solid black 4px ;
+}
+
+.jokes-api{
+    display: flex;
+    align-content: center;
+    width:400px;
+    border: solid black 2px;
+    text-align: center;
+}
+
+.joke-container{
+    display: flex;
+    background-image: url('https://media.giphy.com/media/ylp4hl9xEaWyc/giphy.gif');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 500px auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joke-output{
+    display: flex;
+    border: solid red 5px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+p{
+    color: white;
 }
